@@ -1,0 +1,139 @@
+body{
+	  background-color: #d5d5d5;
+}
+
+@font-face {
+  font-family: DancingScript-Regular;
+  src: url(../fonts/DancingScript-Regular.ttf); 
+}
+.navbar{
+	margin: 0%;
+}
+.nav {
+  padding-left: 35%;
+}
+.navbar-nav {
+  float: none;
+}
+.carousel-caption {
+ padding-bottom: 20%;
+	h3{
+  font-family:"DancingScript-Regular";
+  font-size: 40px;
+	}
+}
+.text-sobre-mi {
+  margin: 8% 20%;
+}
+.sobre-mi{
+	text-align: center;
+ h2{
+  	  font-family:"DancingScript-Regular";
+  	  font-size: 41px;
+  		color: #644c61;
+	}
+	p{
+  		font-size: 15px;
+  		margin: 4% 0%;
+	}
+} 
+
+.segundo_raro,
+.tercero_raro{
+  margin-top: 30%;
+
+}
+.scroll_uno {
+  width: 100%;
+  height: 400px;
+  bottom: 0;
+  background-image: url(../img/fondo-nueve.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.scroll_dos {
+  width: 100%;
+  height: 682px;
+  bottom: 0;
+  background-image: url(../img/fondo-ocho.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}.scroll_tres{
+  width: 100%;
+  height: 682px;
+  bottom: 0;
+  background-image: url(../img/fondo-cinco.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.scroll_redes{
+  width: 100%;
+  height: 481px;
+  bottom: 0;
+  background-image: url(../img/fondo-footer.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+}
+.footer_p{
+	text-align: center;
+    margin-top: 2%;
+}
+.icon-redes{
+	text-align: center;
+}
+.icon-redes img {
+  width: 52px;
+  border-radius: 50%;
+  border: solid rgba(255, 255, 255, 0.52) 1px;
+  margin: 3px;
+  padding: 12px 11px;
+}
+.red-f {
+	display: inline-block;
+
+img:hover {
+  background-color: #2C4076;
+  border: #2C4076;
+  -webkit-transition: 1.1s;
+	}
+}
+.red-p {
+	display: inline-block;
+
+img:hover {
+  background-color: #AD2027;
+  border: #AD2027;
+  -webkit-transition: 1.1s;
+	}
+} 
+.red-t {
+  display: inline-block;
+  img:hover {
+  background-color: #1087B6;
+  border: #1087B6;
+  -webkit-transition: 1.1s;
+	}
+}
+.red-g {
+  display: inline-block;
+  img:hover {
+  background-color: #60707A;
+  -webkit-transition: 1.1s;
+  border: #60707A;
+	}
+}
+.text-redes {
+  margin: 9% 0%;
+  color: #f3f3f3;
+  font-size: 30px;
+  letter-spacing: 4px;
+  span{
+  	  font-family:"DancingScript-Regular";
+  	  color: rgb(203, 201, 201);
+  }
+}
