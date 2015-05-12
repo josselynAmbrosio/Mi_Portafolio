@@ -22,6 +22,9 @@ body{
 }
 .nav {
   padding-left: 35%;
+  @media screen and (max-width: $screen-phone) {
+    padding: 0;
+  };
 }
 .navbar-nav {
   float: none;
@@ -29,6 +32,16 @@ body{
 .navbar-brand img{
     width: 122px;
 }
+
+.logo-movil {
+   position: absolute; 
+  top: -4px;
+  z-index: 11;
+  img {
+    width: 98px;
+  }
+}
+
 .navbar{
 background-color:transparent;
 transition:0.5s ease-in-out;
@@ -54,6 +67,16 @@ transition:0.5s ease-in-out;
   width: 100%;
   z-index:10;
 }
+
+
+.nombre {
+  padding-top: 49%;
+  h1 {
+    color: #34495e;
+    font-size: 49px;
+  }
+}
+
 .carousel-caption {
  padding-bottom: 20%;
 	h3{
@@ -133,7 +156,8 @@ li{
 .trabajo-img {
   margin-top: 8%;
   img {
-  width: 100%;
+    width: 100%;
+    min-height: 210px;
   }
 }
 .proceso{
@@ -219,8 +243,8 @@ img:hover {
    
   }
   span{
-  	  font-family:"DancingScript-Regular";
-  	  color: rgb(203, 201, 201); 
+     font-family:"DancingScript-Regular";
+     color: rgb(203, 201, 201); 
      font-size: 34px;
   }
   p{
@@ -229,6 +253,13 @@ img:hover {
   color: #cbc9c9;
   }
 }
+
+.footer {
+  font-family:"JosefinSans";
+  font-size: 16px; 
+  font-size: rem(16px); 
+}
+
 .caja-caption{
   &.white{
     background-color :white ;

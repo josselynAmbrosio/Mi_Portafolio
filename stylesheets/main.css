@@ -5527,6 +5527,15 @@ button.close {
 .text-gray {
   color: gray; }
 
+.text-center {
+  color: white; }
+
+.dancing {
+  font-family: DancingScript-Regular; }
+
+.pull-left {
+  float: left; }
+
 body {
   background-color: #d5d5d5; }
 
@@ -5548,12 +5557,22 @@ body {
 
 .nav {
   padding-left: 35%; }
+  @media screen and (max-width: 480px) {
+    .nav {
+      padding: 0; } }
 
 .navbar-nav {
   float: none; }
 
 .navbar-brand img {
   width: 122px; }
+
+.logo-movil {
+  position: absolute;
+  top: -4px;
+  z-index: 11; }
+  .logo-movil img {
+    width: 98px; }
 
 .navbar {
   background-color: transparent;
@@ -5579,6 +5598,12 @@ a {
   position: fixed;
   width: 100%;
   z-index: 10; }
+
+.nombre {
+  padding-top: 49%; }
+  .nombre h1 {
+    color: #34495e;
+    font-size: 49px; }
 
 .carousel-caption {
   padding-bottom: 20%; }
@@ -5653,7 +5678,8 @@ li {
 .trabajo-img {
   margin-top: 8%; }
   .trabajo-img img {
-    width: 100%; }
+    width: 100%;
+    min-height: 210px; }
 
 .proceso {
   text-align: center; }
@@ -5727,6 +5753,11 @@ li {
     font-size: 12px;
     letter-spacing: normal;
     color: #cbc9c9; }
+
+.footer {
+  font-family: "JosefinSans";
+  font-size: 16px;
+  font-size: rem(16px); }
 
 .caja-caption.white {
   background-color: white;
