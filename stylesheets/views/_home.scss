@@ -88,7 +88,7 @@ li{
 }
 .trabajos,
 .tercero_raro{
-  margin-top: 30%;
+  margin: 6%;
 
 }
 .scroll_dos {
@@ -130,11 +130,12 @@ li{
       font-family: "JosefinSans";
   }
 }
-
-
-
-
-
+.trabajo-img {
+  margin-top: 8%;
+  img {
+  width: 100%;
+  }
+}
 
 
 
@@ -146,7 +147,7 @@ li{
 
 .contacto{
   width: 100%;
-  height: 615px;
+  height: 466px;
   bottom: 0;
   background-image: url(../img/fondo-footer.jpg);
   background-repeat: no-repeat;
@@ -204,12 +205,16 @@ img:hover {
 }
 .text-redes {
   margin: 9% 0%;
-  color: #f3f3f3;
-  font-size: 30px;
-  letter-spacing: 4px;
+
+  h4{
+    font-family:"JosefinSans"; 
+     color: #f3f3f3;
+   
+  }
   span{
   	  font-family:"DancingScript-Regular";
-  	  color: rgb(203, 201, 201);
+  	  color: rgb(203, 201, 201); 
+      font-size: 30px; 
   }
   p{
     font-size: 12px;

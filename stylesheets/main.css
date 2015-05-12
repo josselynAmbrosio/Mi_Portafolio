@@ -5610,7 +5610,7 @@ li {
 
 .trabajos,
 .tercero_raro {
-  margin-top: 30%; }
+  margin: 6%; }
 
 .scroll_dos {
   width: 100%;
@@ -5650,9 +5650,14 @@ li {
     margin: 4% 0%;
     font-family: "JosefinSans"; }
 
+.trabajo-img {
+  margin-top: 8%; }
+  .trabajo-img img {
+    width: 100%; }
+
 .contacto {
   width: 100%;
-  height: 615px;
+  height: 466px;
   bottom: 0;
   background-image: url(../img/fondo-footer.jpg);
   background-repeat: no-repeat;
@@ -5703,13 +5708,14 @@ li {
     border: #60707A; }
 
 .text-redes {
-  margin: 9% 0%;
-  color: #f3f3f3;
-  font-size: 30px;
-  letter-spacing: 4px; }
+  margin: 9% 0%; }
+  .text-redes h4 {
+    font-family: "JosefinSans";
+    color: #f3f3f3; }
   .text-redes span {
     font-family: "DancingScript-Regular";
-    color: #cbc9c9; }
+    color: #cbc9c9;
+    font-size: 30px; }
   .text-redes p {
     font-size: 12px;
     letter-spacing: normal;
