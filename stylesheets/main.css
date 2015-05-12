@@ -5616,7 +5616,7 @@ li {
   width: 100%;
   height: 400px;
   bottom: 0;
-  background-image: url(../img/fondo-ocho.jpg);
+  background-image: url(../img/fondo8.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed; }
@@ -5625,7 +5625,7 @@ li {
   width: 100%;
   height: 400px;
   bottom: 0;
-  background-image: url(../img/fondo-cinco.jpg);
+  background-image: url(../img/fondo6.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed; }
@@ -5654,6 +5654,13 @@ li {
   margin-top: 8%; }
   .trabajo-img img {
     width: 100%; }
+
+.proceso {
+  text-align: center; }
+  .proceso h2 {
+    font-family: "DancingScript-Regular";
+    font-size: 49px;
+    color: #644c61; }
 
 .contacto {
   width: 100%;
@@ -5715,7 +5722,7 @@ li {
   .text-redes span {
     font-family: "DancingScript-Regular";
     color: #cbc9c9;
-    font-size: 30px; }
+    font-size: 34px; }
   .text-redes p {
     font-size: 12px;
     letter-spacing: normal;
