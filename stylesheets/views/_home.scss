@@ -10,7 +10,13 @@ body{
   font-family: JosefinSans;
   src: url(../fonts/JosefinSans-Regular.ttf); 
 }
-
+.home {
+  background-image: url(../img/image.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  height: 810px;
+}
 .navbar{
 	margin: 0%;
 }
@@ -20,6 +26,9 @@ body{
 .navbar-nav {
   float: none;
 }
+.navbar-brand img{
+    width: 122px;
+}
 .navbar{
 background-color:transparent;
 transition:0.5s ease-in-out;
@@ -27,7 +36,18 @@ transition:0.5s ease-in-out;
  a {
   color: #FEFEFE;
 }
-
+.navbar-default {
+  border-color: rgba(231, 231, 231, 0);
+}
+.navbar-nav > li > a {
+  padding-top: 28px;
+  padding-bottom: 18px;
+}
+.navbar-brand {
+  padding: 0px;
+  height: 76px;
+  width: 13%;
+}
 .navbar.scroll{
   background-color: whitesmoke;
   position:fixed;
@@ -37,18 +57,23 @@ transition:0.5s ease-in-out;
 .carousel-caption {
  padding-bottom: 20%;
 	h3{
-  font-family:"DancingScript-Regular";
+  font-family: "JosefinSans";
   font-size: 40px;
 	}
+  p{
+   font-family:  "JosefinSans";
+   font-size:   26px;
+   font-weight: 700;
+  }
 }
 .text-sobre-mi {
-  margin: 8% 20%;
+  margin: 0% 19%;
 }
 .sobre-mi{
 	text-align: center;
  h2{
   	  font-family:"DancingScript-Regular";
-  	  font-size: 41px;
+  	  font-size: 49px;
   		color: #644c61;
 	}
 	p{
@@ -59,20 +84,12 @@ transition:0.5s ease-in-out;
 } 
 li{
   font-family:  "JosefinSans";
+  font-size: 19px;
 }
-.segundo_raro,
+.trabajos,
 .tercero_raro{
   margin-top: 30%;
 
-}
-.scroll_uno {
-  width: 100%;
-  height: 400px;
-  bottom: 0;
-  background-image: url(../img/fondo-nueve.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
-  background-attachment: fixed;
 }
 .scroll_dos {
   width: 100%;
@@ -91,6 +108,42 @@ li{
   background-size: 100%;
   background-attachment: fixed;
 }
+.foto img{
+  width: 25%;
+  transform: rotate(90deg);
+  opacity: 0.6;
+  border-radius: 50%;
+  border: dashed 1px;
+  padding: 8px;
+  margin: 7%;
+}
+.trabajos {
+  text-align: center;
+ h2{
+      font-family:"DancingScript-Regular";
+      font-size: 49px;
+      color: #644c61;
+  }
+  p{
+      font-size: 20px;
+      margin: 4% 0%;
+      font-family: "JosefinSans";
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .contacto{
   width: 100%;
   height: 615px;
@@ -162,5 +215,15 @@ img:hover {
     font-size: 12px;
   letter-spacing: normal;
   color: #cbc9c9;
+  }
+}
+.caja-caption{
+  &.white{
+    background-color :white ;
+    opacity:  0.5;   
+  }
+  &.gray{
+    background-color :gray ;
+    opacity:  0.5;   
   }
 }
