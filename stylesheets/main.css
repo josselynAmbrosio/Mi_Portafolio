@@ -5561,6 +5561,9 @@ body {
     .nav {
       padding: 0; } }
 
+li {
+  font-size: 21px; }
+
 .navbar-nav {
   float: none; }
 
@@ -5568,7 +5571,7 @@ body {
   width: 122px; }
 
 .logo-movil {
-  position: absolute;
+  position: fixed;
   top: -4px;
   z-index: 11; }
   .logo-movil img {
@@ -5617,6 +5620,9 @@ a {
 
 .text-sobre-mi {
   margin: 0% 19%; }
+
+.logo-responsive {
+  margin: 4%; }
 
 .sobre-mi {
   text-align: center; }
