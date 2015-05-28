@@ -5631,8 +5631,8 @@ a {
     font-size: 49px;
     color: #644c61; }
   .sobre-mi p {
-    font-size: 20px;
-    margin: 4% 0%;
+    font-size: 21px;
+    margin: 5% 4%;
     font-family: "JosefinSans"; }
 
 li {
@@ -5642,6 +5642,10 @@ li {
 .trabajos,
 .tercero_raro {
   margin: 6%; }
+
+.trabajos {
+  padding-top: 70px;
+  margin-top: 0px; }
 
 .scroll_dos {
   width: 100%;
@@ -5663,7 +5667,7 @@ li {
   width: 100%;
   height: 400px;
   bottom: 0;
-  background-image: url(../img/fondo-seis.jpg);
+  background-image: url(../img/fondo9.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-attachment: fixed;
@@ -5714,7 +5718,8 @@ li {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  text-align: center; }
+  text-align: center;
+  padding-top: 70px; }
 
 .footer_p {
   text-align: center;
@@ -5785,7 +5790,8 @@ li {
   opacity: 0.5; }
 
 .habilidades {
-  text-align: center; }
+  text-align: center;
+  padding-top: 70px; }
   .habilidades h2 {
     font-family: "DancingScript-Regular";
     font-size: 49px;
